@@ -22,7 +22,7 @@ TODO List website helps you with your daily tasks. You can add tasks, mark your 
 #
 To use TODO List website or to see the project. Please click on the deployed link below.
 
-[TODO List](https://wordcountwebsite.netlify.app/)
+[TODO List](https://yourdailytodolistwebsite.netlify.app/)
 <br>
 <br>
 <!-- ![STOPWATCH Website Image](./stopwatch.png) -->
