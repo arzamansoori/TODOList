@@ -1,3 +1,58 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    background-color: #FEC8D8;
+}
+
+h1{
+    text-align: center;
+    color: #957DAD;
+}
+.addTask{
+    display: flex;
+    justify-content: center;
+}
+.inputTask{
+    width: 300px;
+    font-style: italic;
+    background-color: #E0BBE4;
+    border: 2px solid  #957DAD;
+    border-radius: 3px;
+}
+.btAdd{
+    width: 50px;
+    height: 30px;
+    font-style: italic;
+    background-color: #957DAD;
+    border: 5px solid #957DAD;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.add{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center; 
+    grid-column-gap: 5px;
+    grid-row-gap: 7px;
+    
+}
+
+.buttonList{
+    margin-left: 10px;
+    font-style: italic;
+    background-color: #E0BBE4;
+    border: 1px solid #957DAD;
+    border-radius: 4px;
+    color: #fff;
+    width: 60px;
+    height: 25px;
+}
+label{
+    color: #957DAD;
+    /* background-color: #E0BBE4; */
+}
 
 #id:checked + label{
     text-decoration: line-through;

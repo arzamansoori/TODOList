@@ -24,23 +24,13 @@ btn.addEventListener("click", () => {
         check.name = "name";
         check.value = "value";
         check.id = "id";
-        // check.onclick = addLine();
-        // check.onchange = addingLine();
         addP[0].appendChild(check);
 
-        
-
-        //creating list element
-        // const node = document.createElement("li");
-        // const textNode = document.createTextNode(addValue.value);
-        // //appending textnode to node
-        // node.appendChild(textNode);
-        // check.(node);
-
+        //creating label
         const label = document.createElement('label');
         label.class = "labelFor";
         label.htmlFor = "id";
-        label.appendChild(document.createTextNode(addValue.value));
+        label.appendChild(document.createTextNode(addValue.value.toUpperCase()));
         addP[0].appendChild(check);
         addP[0].appendChild(label);
 
@@ -53,9 +43,7 @@ btn.addEventListener("click", () => {
         //appending btnNode to node
         label.appendChild(btnNode);
         label.appendChild(line);
-
-        //appending node to add id
-        // check.appendChild(node);
+        btnNode.classList.add("buttonList");
 
         btnNode.addEventListener("click", () => {
             check.remove();
