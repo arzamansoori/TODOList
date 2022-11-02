@@ -1,6 +1,6 @@
 ![TODO List](https://img.shields.io/badge/TODO-LIST-%23833F72)
 
-TODO List website is created with using HTML, CSS(styling yet to be done) and JavaScript.
+TODO List website is created with using HTML, CSS and JavaScript.
 
 ## TABLE OF CONTENTS
 #
@@ -15,7 +15,7 @@ TODO List website helps you with your daily tasks. You can add tasks, mark your 
 ### Technologies
 #
 * HTML
-* CSS(yet to be done)
+* CSS
 * JavaScript
 
 ### Launch
@@ -25,5 +25,5 @@ To use TODO List website or to see the project. Please click on the deployed lin
 [TODO List](https://yourdailytodolistwebsite.netlify.app/)
 <br>
 <br>
-<!-- ![STOPWATCH Website Image](./stopwatch.png) -->
+![TODO List Website Image](./todo.png)
 
